@@ -4,9 +4,9 @@ public class CellPhoneApplication {
         CellPhone phone1 = new CellPhone();
 
         phone1.setOwner("Dominick");
-        phone1.setModel("Galaxy S23+");  // ✅ use the instance method, not class method
+        phone1.setModel("Galaxy S23+");
 
         System.out.println("phone 1 owner: " + phone1.getOwner());
-        System.out.println("phone 1 model: " + phone1.getModel());  // ✅ test model too
+        System.out.println("phone 1 model: " + phone1.getModel());
     }
 }
