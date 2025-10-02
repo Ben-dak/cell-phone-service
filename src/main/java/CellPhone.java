@@ -4,7 +4,7 @@ public class CellPhone {
     private String phoneNumber;
     private String serialNumber;
     private String carrier;
-    private String model;   // <-- you forgot this field
+    private String model;
 
     public CellPhone() {
         this.owner = "";
